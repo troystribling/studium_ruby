@@ -1,0 +1,222 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Pac",
+		"selected_items":
+		[
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Packag",
+				"Package Control: Install Package"
+			],
+			[
+				"Pacak",
+				"Package Control: Install Package"
+			],
+			[
+				"pacak",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/troy/Develop/jobs/studium_ruby"
+	],
+	"file_history":
+	[
+		"/Users/troy/Develop/jobs/dealpath/Gemfile.lock",
+		"/Users/troy/Develop/jobs/dealpath/config.ru",
+		"/Users/troy/Develop/jobs/dealpath/app/api.rb",
+		"/Users/troy/Develop/jobs/dealpath/scripts/sort.rb",
+		"/Users/troy/Develop/jobs/dealpath/Gemfile",
+		"/Users/troy/Develop/jobs/dealpath/config/database.yml",
+		"/Users/troy/Develop/iPhone/BlueCap/README.md",
+		"/Users/troy/Develop/iPhone/BlueCap/ViewController.swift",
+		"/Users/troy/Develop/ruby/zgomot/lib/zgomot/comp/pattern.rb",
+		"/Users/troy/Develop/ruby/zgomot/lib/zgomot/drivers/core_midi.rb",
+		"/Users/troy/Develop/ruby/zgomot/examples/arp_chords.rb",
+		"/Users/troy/Develop/ruby/zgomot/zgomot.gemspec",
+		"/Users/troy/Develop/ruby/zgomot/lib/zgomot/drivers/mgr.rb",
+		"/Users/troy/Develop/ruby/zgomot/README.rdoc",
+		"/Users/troy/Develop/ruby/zgomot/lib/zgomot/comp/perc.rb",
+		"/Users/troy/Develop/ruby/zgomot/Rakefile",
+		"/Users/troy/Develop/ruby/zgomot/.rvmrc",
+		"/Users/troy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/troy/Develop/ruby/zgomot/lib/zgomot.rb",
+		"/Users/troy/Develop/ruby/zgomot/lib/zgomot/comp/chord.rb",
+		"/Users/troy/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/CHANGELOG",
+		"/Users/troy/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/troy/Develop/ruby/zgomot/lib/zgomot_sh.rb",
+		"/Users/troy/Develop/ruby/zgomot/.document",
+		"/Users/troy/Develop/ruby/zgomot/zgomot.gems"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/troy/Develop/ruby/zgomot"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"create_client",
+			"create_input_port",
+			"curses"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "studium_ruby.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
