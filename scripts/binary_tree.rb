@@ -2,10 +2,19 @@ require 'minitest/autorun'
 
 class ListNode
 	attr_accessor :value, :next_node
-	def initialize(value, next_node)
+	def initialize(value)
 		@value = value
 		@next_node = next_node
 	end
+
+	def print_values
+		current = self
+		while current do
+			puts current.value.value
+			current = current.next_node
+		end
+	end
+
 end
 
 class TreeNode
@@ -101,12 +110,25 @@ class TreeNode
 	end
 
 	def levels_lists
-		self.levels_lists_nodes([self])
+		lists = []
+		self.levels_lists_nodes([self], lists)
+		lists
 	end
 
-	def levels_lists_nodes(nodes)
-		return if nodes.empty?
-
+	def levels_lists_nodes(nodes, lists)
+		children = []
+		level_head = nil
+		prev = nil
+		nodes.each do |node|
+			children << node.left if node.left
+			children << node.right if node.right
+			list_node = ListNode.new(node)
+			prev.next_node = list_node if prev
+			level_head = list_node if level_head.nil?
+			prev = list_node
+		end
+		lists << level_head
+		self.levels_lists_nodes(children, lists) unless children.empty?
 	end
 
 end
